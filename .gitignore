@@ -1,0 +1,7 @@
+*.pkg.tar.xz
+*.tar.gz
+/**/pkg/
+/**/src/
+repo/
+*.log
+/root/
