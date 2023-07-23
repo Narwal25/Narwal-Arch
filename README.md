@@ -1,4 +1,4 @@
-Narwal-Arch CustomArch Linux Repository
+**Narwal-Arch CustomArch Linux Repository**
 
 
 Welcome to the Narwal-Arch custom Arch Linux repository! This repository provides a curated collection of packages that are not available in the official Arch Linux repositories but may be useful or interesting to Arch Linux users.
@@ -10,25 +10,25 @@ Add the Narwal-Arch Repository
 
 Run the following command:
 
-sudo echo "[narwal-arch]\nSigLevel = Optional TrustAll\nServer = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/" >> /etc/pacman.conf
+**sudo echo "[narwal-arch]\nSigLevel = Optional TrustAll\nServer = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/" >> /etc/pacman.conf**
 
 Update Package Database
 After adding the repository, it's essential to update your package database:
 
-sudo pacman -Sy
+**sudo pacman -Sy**
 
 
 Install Packages
 You can now install packages from the Narwal-Arch repository using pacman. For example, to install a package called plasma-narwal, run:
 
-sudo pacman -S plasma-narwal
+**sudo pacman -S plasma-narwal**
 
 
 Stay Up to Date
 To keep the packages from the Narwal-Arch repository up to date, make sure to regularly update your system with:
 
 
-sudo pacman -Syu
+**sudo pacman -Syu**
 
 
 Contributing
