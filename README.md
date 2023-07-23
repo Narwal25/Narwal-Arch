@@ -7,12 +7,19 @@ How to Use this Repository
 To use the Narwal-Arch repository, you need to add the repository's link to your Arch Linux package manager configuration.
 
 Add the Narwal-Arch Repository
+Open your favorite package manager configuration file (/etc/pacman.conf) with a text editor as root:
 
-Run the following command:
+sudo nano /etc/pacman.conf
 
-**sudo su**
 
-**echo "[narwal-arch]\nSigLevel = Optional TrustAll\nServer = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/" >> /etc/pacman.conf**
+Add the following lines at the end of the file:
+
+**[narwal-arch]
+SigLevel = Optional TrustAll
+Server = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/
+**
+
+Save the file and exit the text editor.
 
 Update Package Database
 After adding the repository, it's essential to update your package database:
