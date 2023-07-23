@@ -5,7 +5,6 @@ pkg/**/src/
 repo/
 *.log
 /root/
-.gitignore
 *.pkg.tar.zst
 *.tar.zst
-*/rambo
+pkg/**/.git
