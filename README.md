@@ -10,7 +10,9 @@ Add the Narwal-Arch Repository
 
 Run the following command:
 
-**sudo echo "[narwal-arch]\nSigLevel = Optional TrustAll\nServer = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/" >> /etc/pacman.conf**
+**sudo su**
+
+**echo "[narwal-arch]\nSigLevel = Optional TrustAll\nServer = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/" >> /etc/pacman.conf**
 
 Update Package Database
 After adding the repository, it's essential to update your package database:
