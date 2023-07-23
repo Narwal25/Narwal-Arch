@@ -14,10 +14,8 @@ sudo nano /etc/pacman.conf
 
 Add the following lines at the end of the file:
 
-[narwal-arch]
-
-SigLevel = Optional TrustAll
-
+[narwal-arch]  
+SigLevel = Optional TrustAll  
 Server = https://s3.ap-south-1.amazonaws.com/$repo/os/$arch/
 
 
