@@ -1,6 +1,6 @@
 #Maintainer : Narwal <narwal25@github.com>
 pkgname=cli-tools-narwal
-pkgver=0.0.1
+pkgver=0.0.2
 pkgdesc="Collection of cli tools for arch linux"
 pkgrel=1    
 arch=('any')
@@ -13,7 +13,6 @@ depends=(
 'efibootmgr'
 'os-prober'
 'pkgconf'
-'reflector'
 'nano'
 'neofetch'
 'tree'
