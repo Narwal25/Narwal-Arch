@@ -1,6 +1,6 @@
-# Arch Packages Manager for Narwal-Arch Repository
+# Welcome to the Narwal-Arch Repository
 
-This repository, `arch-pakgs`, houses a set of scripts crafted to facilitate the management of the Narwal-Arch custom Arch Linux repository. The Narwal-Arch repository provides a carefully chosen array of packages that are not available in the official Arch Linux repositories but are deemed valuable or interesting to the Arch Linux user community.
+This repository, `Narwal-Arch`, houses a set of scripts crafted to facilitate the management of the Narwal-Arch custom Arch Linux repository. The Narwal-Arch repository provides a carefully chosen array of packages that are not available in the official Arch Linux repositories but are deemed valuable or interesting to the Arch Linux user community.
 
 ## How to Use the Narwal-Arch Repository
 
